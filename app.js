@@ -72,3 +72,10 @@ console.log(replacevowels("Balochistan is such a beatifull "));
 let words = "i love  balochistan "
 console.log(words.replaceAll(/[aeiouAEIOU]/g , "*"));  // task 9 complete 
 
+// 10. Split Sentence into Words 
+// Convert a sentence into an array of words using split(" ").
+
+function spliteword(text){
+    return text.split(" ");
+}
+console.log(spliteword("my name is farooq."));    // task 10 complete
