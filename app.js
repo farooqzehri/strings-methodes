@@ -47,3 +47,13 @@ console.log(lastcharacter("hello dunya")); // task 5 finished
 
 let sentence = "the tast of apple is very good."
 console.log(sentence.indexOf("apple"));  // task 6 
+
+// 7. Extract First Word 
+// Use slice() and indexOf() to extract the first word from a sentence.
+let firstword = " i live in quetta balochistan"
+console.log(firstword.indexOf("quetta"));
+console.log(firstword.slice(11));  //  task  7 complete
+
+
+
+
