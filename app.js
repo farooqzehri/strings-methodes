@@ -45,3 +45,5 @@ console.log(lastcharacter("hello dunya")); // task 5 finished
 // 6. Find Position of Word 
 // Given a sentence, find the position (index) of the word "apple" using indexOf.
 
+let sentence = "the tast of apple is very good."
+console.log(sentence.indexOf("apple"));  // task 6 
