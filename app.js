@@ -32,4 +32,16 @@ function firstcharacter(word){
 }
 console.log(firstcharacter("Hello dunya"));  // taskk 4 
 
+// 5. Last Character 
+// Return the last character of any string using .charAt() and .length. 
+
+function lastcharacter(text){
+    return text.charAt(text.length - 1);
+}
+console.log(lastcharacter("hello dunya")); // task 5 finished
+
+
+
+// 6. Find Position of Word 
+// Given a sentence, find the position (index) of the word "apple" using indexOf.
 
