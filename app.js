@@ -55,5 +55,20 @@ console.log(firstword.indexOf("quetta"));
 console.log(firstword.slice(11));  //  task  7 complete
 
 
+// 8. Replace a Word 
+// Replace the word "bad" with "good" in a given sentence using replace().
 
+let replace = "bad";
+console.log(replace.replace("bad", "good")); // task 8 complete
+
+
+// 9. Replace All Vowels 
+// Replace all occurrences of vowels in a string with "*" using replaceAll(). 
+function replacevowels(text){
+    return text.replaceAll(/[aeiouAEIOU]/g , "*")
+}
+console.log(replacevowels("Balochistan is such a beatifull "));
+
+let words = "i love  balochistan "
+console.log(words.replaceAll(/[aeiouAEIOU]/g , "*"));  // task 9 complete 
 
