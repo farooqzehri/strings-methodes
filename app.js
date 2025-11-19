@@ -4,7 +4,7 @@
 function UpperCaseName(name){
     return name.toLowerCase();
 }
-console.log(UpperCaseName("FAROOQ ZEHRI"));     // ok
+console.log(UpperCaseName("FAROOQ ZEHRI"));     // task 1
 
 
 // 2. Uppercase Shouting 
@@ -14,7 +14,7 @@ console.log(UpperCaseName("FAROOQ ZEHRI"));     // ok
 function shout(text){
     return text.toUpperCase();
 }
-console.log(shout("hello"));   // ok
+console.log(shout("hello"));   // task 2 
 
 //3. Count Characters 
 // Given a string, return the number of characters in it.
@@ -22,5 +22,14 @@ console.log(shout("hello"));   // ok
 
 let str = "Hello-world";
 console.log(str.length);   // task 3
+
+//4. First Character 
+//Write a function that returns the first character of a string using charAt().
+
+
+function firstcharacter(word){
+    return word.charAt(1);
+}
+console.log(firstcharacter("Hello dunya"));  // taskk 4 
 
 
