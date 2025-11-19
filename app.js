@@ -79,3 +79,8 @@ function spliteword(text){
     return text.split(" ");
 }
 console.log(spliteword("my name is farooq."));    // task 10 complete
+
+// 11. Capitalize First Letter 
+// Capitalize only the first letter of a given word. 
+let letter = "apple";
+console.log(letter.charAt(0).toUpperCase() + letter.slice(1)); // task 11 complete
