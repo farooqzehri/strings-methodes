@@ -113,6 +113,15 @@ console.log(countword("untill i foun you ,")); //  task 14 complete
 
 
 
+// 15. Check if Word Exists 
+// Return true if a specific word (e.g., "cat") exists in a string using indexOf.
+
+function checkword(word){
+    let sentence = word.indexOf("cat")
+    return true 
+    
+}
+console.log(checkword("majeed has a cat in there house")); //  task 15 complete , Khas nai
 
 
 
