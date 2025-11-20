@@ -100,7 +100,19 @@ console.log(letter.charAt(0).toUpperCase() + letter.slice(1)); // task 11 comple
 function replaceword(sentence){
    return sentence.replaceAll("dumb", "****")
 }
-console.log(replaceword("he is a dumb and dumbs are crazy ")); // task 13 complete 
+console.log(replaceword("he is a dumb and dumbs are crazy ")); // task 13 complete
+
+// 14. Count Words in Sentence 
+// Use .split() and .length to count how many words are in a sentence.
+
+function countword(words){
+    let sentence = words.split(" ")
+    return sentence.length
+}
+console.log(countword("untill i foun you ,")); //  task 14 complete
+
+
+
 
 
 
