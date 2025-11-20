@@ -118,11 +118,18 @@ console.log(countword("untill i foun you ,")); //  task 14 complete
 
 function checkword(word){
     let sentence = word.indexOf("cat")
-    return true 
+    return true
     
 }
 console.log(checkword("majeed has a cat in there house")); //  task 15 complete , Khas nai
 
+// 16. Extract Domain from Email 
+// Given an email address, extract and return the domain name (everything after @). 
 
+ function domain(sentence){
+      return  sentence.slice(14)
+ }
+ console.log(domain("Farooqbaloch12@gmail.com")); //           task 16 complete
 
+ 
  
