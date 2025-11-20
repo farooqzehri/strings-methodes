@@ -84,3 +84,13 @@ console.log(spliteword("my name is farooq."));    // task 10 complete
 // Capitalize only the first letter of a given word. 
 let letter = "apple";
 console.log(letter.charAt(0).toUpperCase() + letter.slice(1)); // task 11 complete
+
+
+// 12. Find Second Word 
+// Write a function that returns the second word of a sentence using split(). 
+ function findword(text){
+    let words = text.split(" ")
+    return words[2]
+ }
+ console.log(findword("i love javascsript.")); // task 12 complete
+ 
