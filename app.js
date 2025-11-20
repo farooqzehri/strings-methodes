@@ -93,4 +93,15 @@ console.log(letter.charAt(0).toUpperCase() + letter.slice(1)); // task 11 comple
     return words[2]
  }
  console.log(findword("i love javascsript.")); // task 12 complete
+
+ //13. Censor a Word 
+// Replace all instances of a bad word like "dumb" in a string with "****".
+
+function replaceword(sentence){
+   return sentence.replaceAll("dumb", "****")
+}
+console.log(replaceword("he is a dumb and dumbs are crazy ")); // task 13 complete 
+
+
+
  
