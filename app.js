@@ -131,5 +131,14 @@ console.log(checkword("majeed has a cat in there house")); //  task 15 complete 
  }
  console.log(domain("Farooqbaloch12@gmail.com")); //           task 16 complete
 
+//  17. Reverse Words in Sentence 
+// Given a sentence, split it into words, reverse the array, and join it back into a string.
+ function reverse(words) {
+    let sentence = words.split((" "))
+    sentence.reverse()
+    return sentence.join(" ")
+ }
+ console.log(reverse("quetta is a very beatifull city."));  // task 17 complete
+
  
  
